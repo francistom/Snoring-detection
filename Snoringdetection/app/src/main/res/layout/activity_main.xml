@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.francistom.snoringdetection.MainActivity"
+    android:background="#00FF00">
+
+
+
+    <Button
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="stop"
+            android:text="@string/stop"
+            android:visibility="visible"
+        android:layout_alignBaseline="@+id/start"
+        android:layout_alignBottom="@+id/start"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="23dp" />
+
+    <com.jjoe64.graphview.GraphView
+                android:layout_width="match_parent"
+                android:layout_height="200dip"
+                android:id="@+id/graph"
+        android:layout_marginTop="88dp"
+        android:layout_below="@+id/start"
+        android:layout_alignParentStart="true" />
+
+    <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:onClick="start"
+            android:text="@string/start"
+        android:layout_marginEnd="11dp"
+        android:layout_marginTop="68dp"
+        android:layout_below="@+id/textView"
+        android:layout_toStartOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/not_snoring"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
