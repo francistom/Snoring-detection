@@ -1,12 +1,25 @@
 # Snoring-detection
-Android app for snoring detection
+Android app for snoring detection. Programmable and Embedded Systems course assignment.
 
-Screenshots
 
-![1](https://github.com/francistom/Snoring-detection/blob/master/Screenshots/s1.jpg)
+## Screenshots:
 
-![2](https://github.com/francistom/Snoring-detection/blob/master/Screenshots/s2.jpg)
+<img src="Screenshots/s1.jpg" width="40%">
 
-![3](https://github.com/francistom/Snoring-detection/blob/master/Screenshots/s3.jpg)
+
+<img src="Screenshots/s2.jpg" width="40%">
+
+
+<img src="Screenshots/s3.jpg" width="40%">
+
+
+<img src="Screenshots/s4.jpg" width="40%">
+
+
+## Author
+
+Francis Tom
+
+14EE35020
 
 
